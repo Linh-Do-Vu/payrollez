@@ -1,9 +1,9 @@
 package com.example.payrollez.service.core_user_account;
 import com.example.payrollez.exception.CustomException;
 import com.example.payrollez.exception.ErrorCode;
-import com.example.payrollez.model.CoreUserAccount;
+import com.example.payrollez.model.user.CoreUserAccount;
 import com.example.payrollez.model.Log;
-import com.example.payrollez.model.UserPrinciple;
+import com.example.payrollez.model.user.UserPrinciple;
 import com.example.payrollez.repository.CoreUserAccountRepository;
 import com.example.payrollez.service.auto_pk_support.IAutoPkSupportService;
 import org.springframework.security.core.Authentication;

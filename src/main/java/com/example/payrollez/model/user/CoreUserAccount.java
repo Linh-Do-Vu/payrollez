@@ -1,4 +1,4 @@
-package com.example.payrollez.model;
+package com.example.payrollez.model.user;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

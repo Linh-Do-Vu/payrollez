@@ -1,7 +1,7 @@
 package com.example.payrollez.repository;
 
 
-import com.example.payrollez.model.CoreUserAccount;
+import com.example.payrollez.model.user.CoreUserAccount;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

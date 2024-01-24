@@ -33,4 +33,17 @@ public class Deduction {
 
     @Column(name = "deductionTypeId")
     private Long deductionTypeId;
+
+//    create table Deduction (-- Khoản khấu trừ
+//            id int IDENTITY(1,1) primary key,
+//    amount float, -- số tiền
+//    endDate datetime,-- thời gian kết thúc áp dụng
+//    startdate datetime,-- thời gian bắt đầu áp dụng
+//    createAt datetime, -- thời gian tạo bản ghi
+//    personId int,
+//    deductionTypeId tinyint,
+//    constraint fk_person_deduction foreign key (personId) references Person(id),
+//    constraint fk_deductionType_deduction foreign key (deductionTypeId) references Deduction_type(id),
+//            );
+//    go
 }

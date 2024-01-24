@@ -59,4 +59,23 @@ public class Payslip {
 
     @Column(name = "payroll_id")
     private Long payrollId;
+
+//    create table Payslip ( -- Phiếu lương cho toàn bộ nhân viên theo tháng
+//            id int IDENTITY(1,1) primary key,
+//    leavePaid tinyint, --số ngày nghỉ có lương
+//    leaveUnpaid tinyint, --số ngày nghỉ không lương
+//    absent tinyint, --số ngày có mặt
+//    allowanceAmount float, --tổng số tiền phụ cấp
+//    deductionAmount float,--tổng số tiền khấu trừ
+//    taxAmount float, -- thuế thu nhập cá nhân, cách tính (https://ketoanthienung.vn/cach-tinh-thue-thu-nhap-ca-nhan.htm)
+//            advanceAmount float, -- số tiền tạm ứng
+//                                                                  net float, -- số tiền lương thực nhận được
+//                                                                  accumulateDaysOff tinyint, -- số ngày nghỉ lũy kế (tính theo ngày bắt đầu làm việc startDate của bảng Person)
+//    fristPayDay datetime, -- ngày trả lương đợt 1
+//    secondPayDay datetime,-- ngày trả lương đợt 2
+//    createAt datetime, -- thời gian tạo bản ghi
+//    personId int,
+//    payrollId int,
+//    constraint fk_person_payslip foreign key (personId) references Person(id),
+//    constraint fk_payroll_payslip foreign key (payrollId) references Payroll(id),
 }

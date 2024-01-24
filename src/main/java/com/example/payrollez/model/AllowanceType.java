@@ -21,4 +21,11 @@ public class AllowanceType {
 
     @Column(name = "description")
     private String description;
+
+//    create table Allowance_type ( -- loại phụ cấp
+//            id tinyint primary key, --(1: Thưởng,2: gửi xe, ...)
+//    name varchar(255), --tên
+//    description varchar(255) -- chi tiết
+//);
+//    go
 }

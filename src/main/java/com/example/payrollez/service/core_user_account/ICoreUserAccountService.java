@@ -1,6 +1,6 @@
 package com.example.payrollez.service.core_user_account;
 
-import com.example.payrollez.model.CoreUserAccount;
+import com.example.payrollez.model.user.CoreUserAccount;
 import com.example.payrollez.service.IService;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetailsService;

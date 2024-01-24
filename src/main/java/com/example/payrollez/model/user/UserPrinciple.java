@@ -1,5 +1,6 @@
-package com.example.payrollez.model;
+package com.example.payrollez.model.user;
 
+import com.example.payrollez.model.user.CoreUserAccount;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.security.core.GrantedAuthority;
