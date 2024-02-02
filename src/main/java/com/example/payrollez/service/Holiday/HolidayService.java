@@ -29,6 +29,9 @@ public class HolidayService implements IHolidayService{
 
     @Override
     public void delete(Long aLong) {
-holidayRepository.deleteById(aLong);
+    holidayRepository.deleteById(aLong);
     }
+
+
+
 }
