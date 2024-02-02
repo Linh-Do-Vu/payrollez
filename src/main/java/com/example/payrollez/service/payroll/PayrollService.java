@@ -1,4 +1,4 @@
-package com.example.payrollez.service.payroll;
+package com.example.payrollez.service.Payroll;
 
 import com.example.payrollez.model.Payroll;
 import com.example.payrollez.repository.PayrollRepository;

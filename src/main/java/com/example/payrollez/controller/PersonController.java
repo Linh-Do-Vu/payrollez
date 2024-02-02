@@ -15,8 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("")
 public class PersonController {
     private final IPersonService personService;
+
     @GetMapping("")
-    ResponseEntity<?> tss () {
+    ResponseEntity<?> tss() {
         return new ResponseEntity<>(personService.findAll(), HttpStatus.OK);
     }
 }
