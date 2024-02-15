@@ -18,4 +18,5 @@ public interface IHolidayService extends IService<Holiday,Long> {
 
     @Override
     void delete(Long aLong);
+    List<Holiday> autoCreateHolidayInMonth () ;
 }
