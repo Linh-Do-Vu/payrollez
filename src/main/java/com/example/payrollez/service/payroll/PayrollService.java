@@ -10,8 +10,9 @@ import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
-public class PayrollService implements IPayrollService {
-    private final PayrollRepository payrollRepository;
+public class PayrollService implements IPayrollService{
+private final PayrollRepository payrollRepository ;
+
 
     @Override
     public Optional<Payroll> findById(Long aLong) {
@@ -30,6 +31,6 @@ public class PayrollService implements IPayrollService {
 
     @Override
     public void delete(Long aLong) {
-        payrollRepository.deleteById(aLong);
+payrollRepository.deleteById(aLong);
     }
 }

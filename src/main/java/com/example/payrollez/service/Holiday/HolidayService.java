@@ -4,6 +4,7 @@ import com.example.payrollez.model.Constant;
 import com.example.payrollez.model.Holiday;
 import com.example.payrollez.repository.HolidayRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import java.time.DayOfWeek;
@@ -37,7 +38,8 @@ public class HolidayService implements IHolidayService{
     }
 
     @Override
-    public List<Holiday> autoCreateHolidayInMonth() {
+    @Scheduled(cron = "0 1 0 1 * ?")
+    public void autoCreateHolidayInMonth() {
         LocalDateTime currentDateTime = LocalDateTime.now();
         int lastDayOfMonth = currentDateTime.toLocalDate().lengthOfMonth();
         List<Holiday> holidayInMonth = new ArrayList<>() ;
@@ -52,6 +54,5 @@ public class HolidayService implements IHolidayService{
                 holidayInMonth.add(save(freeDay)) ;
             }
         }
-        return holidayInMonth;
     }
 }

@@ -1,6 +1,6 @@
 package com.example.payrollez.service.Holiday;
 
-import com.example.payrollez.model.Holiday;
+import com.example.payrollez.model.*;
 import com.example.payrollez.service.IService;
 
 import java.util.List;
@@ -18,5 +18,5 @@ public interface IHolidayService extends IService<Holiday,Long> {
 
     @Override
     void delete(Long aLong);
-    List<Holiday> autoCreateHolidayInMonth () ;
+    void autoCreateHolidayInMonth () ;
 }
