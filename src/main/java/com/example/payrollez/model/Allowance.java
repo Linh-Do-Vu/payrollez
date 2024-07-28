@@ -15,6 +15,7 @@ import java.time.LocalDateTime;
 public class Allowance {
 //model linhtest
 //    test commit2 2
+//    linh test 43434322
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "allowanceid")
