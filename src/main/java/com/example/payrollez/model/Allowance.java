@@ -13,6 +13,7 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "Allowance")
 public class Allowance {
+//model linhtest
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "allowanceid")
